@@ -1,0 +1,31 @@
+.app {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.searchInput,
+.addButton,
+.sortButton,
+.taskLink,
+.taskItem,
+.backButton,
+.textarea,
+.toggleButton,
+.deleteButton {
+  margin: 10px 0;
+  display: block;
+}
+.taskLink {
+  text-decoration: none;
+}
+.taskItem {
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.textarea {
+  width: 100%;
+  height: 100px;
+}
